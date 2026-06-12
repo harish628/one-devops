@@ -17,3 +17,8 @@ document.getElementById('contact-form').addEventListener('submit', function (e) 
     alert('Please fill out all fields.');
   }
 });
+
+const password = "admin123"; // Hardcoded credential
+var test = "hello"; // Sonar often recommends let/const instead of var
+
+eval("console.log(test)"); // Security hotspot
