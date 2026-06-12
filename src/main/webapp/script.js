@@ -20,5 +20,5 @@ document.getElementById('contact-form').addEventListener('submit', function (e) 
 
 const password = "admin123"; // Hardcoded credential
 var test = "hello"; // Sonar often recommends let/const instead of var
-
+eval("alert('Sonar Test')");
 eval("console.log(test)"); // Security hotspot
